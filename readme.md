@@ -1,6 +1,6 @@
 Simple Chrome extension that allows you to change volume of specific tab in browser.
 
-To install the extension from a zip folder:
+To install the extension:
 
 1. Download the extension from GitHub.
 2. Extract the files from the zip folder.
