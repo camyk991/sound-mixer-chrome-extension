@@ -1,0 +1,30 @@
+{
+    "name": "Sound mixer",
+    "description": "Extension allows you to change volume of specific tab in browser.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "/assets/icon16.png",
+        "48": "/assets/icon48.png",
+        "128": "/assets/icon128.png"
+    },
+    "background": {
+    	"service_worker": "background.js"
+  	},
+    "action": {
+        "default_icon": {
+            "16": "/assets/icon16.png",
+            "48": "/assets/icon48.png",
+            "128": "/assets/icon128.png"
+        },
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "scripting"
+      ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+  }
